@@ -10,9 +10,12 @@
     "preview": "vite preview --port 4198",
     "prepare-images": "~/anaconda3/bin/python3 scripts/prepare-images.py",
     "images": "node scripts/build-images.mjs",
+    "measure": "~/anaconda3/bin/python3 scripts/measure-board.py",
+    "fit": "node scripts/fit-text.mjs",
     "qa": "node scripts/qa.mjs",
     "compare": "node scripts/board-compare.mjs",
-    "shots": "node scripts/shots.mjs"
+    "shots": "node scripts/shots.mjs",
+    "readme": "node scripts/readme-assets.mjs && ~/anaconda3/bin/python3 scripts/readme-composite.py"
   },
   "engines": {
     "node": ">=20.10"
