@@ -1,0 +1,20 @@
+# The design kit stays in the repo for reference but is never deployed
+00-referencias
+01-identidade
+02-direcao
+03-hero
+04-fotos-originais
+05-camadas
+06-roteiros
+07-integracao
+08-estudo
+09-verificacao
+catalogo.html
+INDEX-DO-KIT.md
+LEIA-ME-KIT.md
+CORRECAO-V2.md
+MANIFESTO-SHA256.json
+VERSION.json
+assets-src
+qa
+.github

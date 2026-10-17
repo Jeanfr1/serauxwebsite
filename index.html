@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SERAUX · Neumáticos, mecánica y lavado en Raos, Santander</title>
+  <meta name="description" content="Neumáticos, mecánica y lavado en el Polígono de Raos, Santander. Tu vehículo, en manos de especialistas. Llámanos al 942 36 91 63.">
+  <!-- TODO(seraux): final domain -> add canonical + og:url, drop noindex here, in vercel.json and public/robots.txt -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#F4EBDF">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="SERAUX · Todo empieza en el contacto.">
+  <meta property="og:description" content="Neumáticos, mecánica y lavado en el Polígono de Raos, Santander.">
+  <meta property="og:image" content="/img/og-v1.jpg">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" type="image/avif" imagesrcset="/img/hero-v1-1200.avif 1200w, /img/hero-v1-1800.avif 1800w, /img/hero-v1-2600.avif 2600w" imagesizes="(min-width: 960px) min(100vw, 1600px), 165vw" fetchpriority="high">
+  <script>
+    /* Boot: decide before first paint whether the hero plays its intro (06-roteiros/ANIMACAO.md).
+       Default markup is the final frame, so no-JS, reduced motion, ?static and #anchors get the still. */
+    (function () {
+      var d = document.documentElement, q = location.search;
+      d.classList.add('js');
+      var still = /[?&]static\b/.test(q) || (location.hash && location.hash !== '#inicio') ||
+        (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+      if (!still) {
+        d.classList.add('intro');
+        window.__introFailsafe = setTimeout(function () { d.classList.remove('intro'); }, 3500);
+      }
+    })();
+  </script>
+  <script type="module" src="/src/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#principal">Saltar al contenido</a>
+  <div class="page">
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="SERAUX, neumáticos y accesorios. Inicio">
+        <picture>
+          <source type="image/avif" srcset="/img/logo-v1-480.avif 480w, /img/logo-v1-960.avif 960w" sizes="(min-width: 960px) 30vw, 200px">
+          <img src="/img/logo-v1-960.webp" srcset="/img/logo-v1-480.webp 480w, /img/logo-v1-960.webp 960w" sizes="(min-width: 960px) 30vw, 200px" width="1494" height="415" alt="SERAUX · Neumáticos y accesorios">
+        </picture>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">Menú <span aria-hidden="true">+</span></button>
+      <nav id="menu" class="nav" aria-label="Principal">
+        <a class="f-nav" href="#neumaticos" style="--nx:497">Neumáticos</a>
+        <a class="f-nav" href="#servicios" style="--nx:587">Servicios</a>
+        <a class="f-nav" href="#taller" style="--nx:660">El taller</a>
+        <a class="f-nav" href="#contacto" style="--nx:722">Contacto</a>
+      </nav>
+      <!-- TODO(seraux): confirm the phone with the shop (same number in comerciosantander + paginasamarillas); no WhatsApp/email was provided -->
+      <a class="btn head-cta" href="tel:+34942369163"><span class="f-headbtn">Solicitar presupuesto</span><svg class="arrow" viewBox="0 0 14 10" aria-hidden="true"><path d="M0 5h12.4M8.6 1.2 12.4 5 8.6 8.8"/></svg></a>
+    </header>
+
+    <main id="principal">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-stage">
+          <div class="hero-art">
+            <div class="hero-motion" aria-hidden="true">
+              <img class="hero-paper" alt="" width="3248" height="1960" decoding="async"
+                data-srcset="/img/hero-papel-v1-1200.avif 1200w, /img/hero-papel-v1-1800.avif 1800w, /img/hero-papel-v1-2600.avif 2600w">
+              <img class="hero-sketch" alt="" width="1216" height="1720" decoding="async"
+                data-srcset="/img/hero-boceto-v1-460.avif 460w, /img/hero-boceto-v1-690.avif 690w, /img/hero-boceto-v1-990.avif 990w">
+            </div>
+            <picture class="hero-plate">
+              <source type="image/avif" srcset="/img/hero-v1-1200.avif 1200w, /img/hero-v1-1800.avif 1800w, /img/hero-v1-2600.avif 2600w" sizes="(min-width: 960px) min(100vw, 1600px), 165vw">
+              <img src="/img/hero-v1-1800.webp" srcset="/img/hero-v1-1200.webp 1200w, /img/hero-v1-1800.webp 1800w, /img/hero-v1-2600.webp 2600w" sizes="(min-width: 960px) min(100vw, 1600px), 165vw" width="3248" height="1960" fetchpriority="high"
+                alt="Dibujo técnico sobre papel: un neumático deportivo con llanta de aluminio, junto a un coche clásico esbozado a lápiz.">
+            </picture>
+            <svg class="hero-lines" viewBox="0 0 812 490" aria-hidden="true" focusable="false"></svg>
+            <div class="scan-track" aria-hidden="true"><span class="scan"></span></div>
+          </div>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow f-eyebrow">El contacto <br>con la carretera.</p>
+          <h1 id="hero-title" class="f-h1"><span class="ln">Todo empieza</span> <span class="ln">en el <em>contacto.</em></span></h1>
+          <p class="intro f-intro">Neumáticos, mecánica y lavado en Santander.<br class="d"> Tu vehículo, en manos de especialistas.</p>
+        </div>
+        <div class="motion-controls" role="group" aria-label="Animación de la portada" hidden>
+          <button type="button" data-act="replay">Repetir animación</button>
+          <button type="button" data-act="pause" aria-pressed="false">Pausar</button>
+          <button type="button" data-act="diagram" aria-pressed="false">Ver esquema</button>
+        </div>
+      </section>
+
+      <!-- TODO(seraux): the three photos are a visitor's Google Maps uploads (viewer UI removed): get permission or the shop's own photos -->
+      <section class="sheet s1" id="neumaticos" aria-labelledby="s1-title">
+        <div class="sheet-copy">
+          <h2 id="s1-title" class="f-s1t"><span class="ln red">Neumáticos</span> <span class="ln">y llantas.</span></h2>
+          <span class="rule" aria-hidden="true"></span>
+          <p class="f-s1p">Primeras marcas y un servicio<br class="d"> profesional para que sigas<br class="d"> siempre en la carretera.</p>
+          <div class="sketch">
+            <picture class="sketch-img rueda">
+              <source type="image/avif" srcset="/img/rueda-v1-300.avif 300w, /img/rueda-v1-600.avif 600w" sizes="(min-width: 960px) 15vw, 150px">
+              <img src="/img/rueda-v1-600.webp" srcset="/img/rueda-v1-300.webp 300w, /img/rueda-v1-600.webp 600w" sizes="(min-width: 960px) 15vw, 150px" width="1112" height="1078" alt="" loading="lazy" decoding="async">
+            </picture>
+            <p class="note" aria-hidden="true"><span>Seguridad</span><span>Agarre</span><span>Confianza</span><span>en cada km</span></p>
+          </div>
+        </div>
+        <div class="sheet-photo">
+          <picture>
+            <source type="image/avif" srcset="/img/neumaticos-v1-800.avif 800w, /img/neumaticos-v1-1400.avif 1400w, /img/neumaticos-v1-2000.avif 2000w" sizes="(min-width: 960px) 73vw, 100vw">
+            <img src="/img/neumaticos-v1-1400.webp" srcset="/img/neumaticos-v1-800.webp 800w, /img/neumaticos-v1-1400.webp 1400w, /img/neumaticos-v1-2000.webp 2000w" sizes="(min-width: 960px) 73vw, 100vw" width="2672" height="1788" loading="lazy" decoding="async"
+              alt="Exposición de SERAUX: llantas de aluminio, neumáticos nuevos, aceites y accesorios en estanterías sobre pared roja.">
+          </picture>
+        </div>
+        <svg class="sheet-lines" viewBox="0 0 1024 363" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+          <path d="M33 14V363M142 220V363M197 222V363M212 240V363M340 236V363M33 240H205M28 249H350M40 283H233M8 312H333M10 342H347"/>
+          <circle cx="33" cy="249" r="2.2"/><circle cx="197" cy="249" r="2.2"/><circle cx="197" cy="240" r="1.8"/><circle cx="212" cy="283" r="2.2"/><circle cx="142" cy="342" r="1.8"/><circle cx="340" cy="312" r="1.8"/>
+        </svg>
+      </section>
+
+      <section class="sheet s2" id="servicios" aria-labelledby="s2-title">
+        <div class="sheet-photo">
+          <picture>
+            <source type="image/avif" srcset="/img/taller-v1-800.avif 800w, /img/taller-v1-1400.avif 1400w, /img/taller-v1-2000.avif 2000w" sizes="(min-width: 960px) 78vw, 100vw">
+            <img src="/img/taller-v1-1400.webp" srcset="/img/taller-v1-800.webp 800w, /img/taller-v1-1400.webp 1400w, /img/taller-v1-2000.webp 2000w" sizes="(min-width: 960px) 78vw, 100vw" width="2636" height="1792" loading="lazy" decoding="async"
+              alt="Nave del taller SERAUX: elevadores con coches en mantenimiento y, al fondo, el túnel de lavado.">
+          </picture>
+        </div>
+        <div class="sheet-copy">
+          <h2 id="s2-title" class="f-s2t"><span class="ln red">Mecánica</span> <span class="ln">y lavado.</span></h2>
+          <span class="rule" aria-hidden="true"></span>
+          <p class="f-s2p">Mantenimiento, reparaciones<br class="d"> y lavado para que tu vehículo<br class="d"> siempre rinda al máximo.</p>
+          <div class="sketch">
+            <picture class="sketch-img llave">
+              <source type="image/avif" srcset="/img/llave-v1-420.avif 420w, /img/llave-v1-840.avif 840w" sizes="(min-width: 960px) 18vw, 220px">
+              <img src="/img/llave-v1-840.webp" srcset="/img/llave-v1-420.webp 420w, /img/llave-v1-840.webp 840w" sizes="(min-width: 960px) 18vw, 220px" width="1489" height="865" alt="" loading="lazy" decoding="async">
+            </picture>
+            <!-- TODO(seraux): the board read "Diagnóstico / … / Lavado integral"; only sourced services are written here -->
+            <p class="note" aria-hidden="true"><span>Mecánica</span><span>Mantenimiento</span><span>Reparaciones</span><span>Lavado</span></p>
+          </div>
+        </div>
+        <svg class="sheet-lines" viewBox="0 0 1024 321" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+          <path d="M777 223V321M879 222V321M993 222V321M767 244H887M973 235H1004M716 318 884 252M738 326 890 266"/>
+          <circle cx="777" cy="244" r="2.2"/><circle cx="879" cy="244" r="2.2"/><circle cx="993" cy="235" r="2.2"/>
+        </svg>
+      </section>
+
+      <section class="sheet s3" id="taller" aria-labelledby="s3-title">
+        <div class="sheet-copy">
+          <h2 id="s3-title" class="f-s3t"><span class="ln red">Encuéntranos</span> <span class="ln"><span class="red">en</span> Raos.</span></h2>
+          <!-- TODO(seraux): detailed address (Nave E 1 / parcela E 1-A?) and Google place link; hours and prices omitted, sources disagree -->
+          <p class="addr f-s3a">Polígono de Raos · Santander</p>
+          <a class="btn map-cta" href="https://www.google.com/maps/search/?api=1&amp;query=Neum%C3%A1ticos+y+Accesorios+Seraux+Pol%C3%ADgono+de+Raos+Santander" target="_blank" rel="noopener"><span class="f-s3btn">Cómo llegar</span><svg class="arrow" viewBox="0 0 14 10" aria-hidden="true"><path d="M0 5h12.4M8.6 1.2 12.4 5 8.6 8.8"/></svg><span class="sr">(abre Google Maps)</span></a>
+          <a class="tel" href="tel:+34942369163">Tel. 942 36 91 63</a>
+        </div>
+        <div class="sheet-photo">
+          <picture>
+            <source type="image/avif" srcset="/img/fachada-v1-800.avif 800w, /img/fachada-v1-1400.avif 1400w, /img/fachada-v1-2000.avif 2000w" sizes="(min-width: 960px) 67vw, 100vw">
+            <img src="/img/fachada-v1-1400.webp" srcset="/img/fachada-v1-800.webp 800w, /img/fachada-v1-1400.webp 1400w, /img/fachada-v1-2000.webp 2000w" sizes="(min-width: 960px) 67vw, 100vw" width="2636" height="1704" loading="lazy" decoding="async"
+              alt="Fachada de Neumáticos Seraux en el Polígono de Raos, de noche, con los rótulos iluminados.">
+          </picture>
+        </div>
+        <svg class="sheet-lines" viewBox="0 0 1024 234" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+          <path d="M33 0V234M331 0V234M0 2H345M0 202H345M300 52H345M300 183H345"/>
+          <circle cx="33" cy="202" r="2.2"/><circle cx="331" cy="202" r="2.2"/><circle cx="331" cy="52" r="1.8"/>
+        </svg>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contacto">
+      <!-- TODO(seraux): logo master files; the kit's identity logo is used (the approved board drew a variant) -->
+      <img class="foot-logo" src="/img/logo-v1-480.webp" width="1494" height="415" alt="SERAUX" loading="lazy" decoding="async">
+      <div class="foot-col">
+        <p class="foot-title">Neumáticos y Accesorios Seraux</p>
+        <p>Polígono de Raos · 39011 Santander</p>
+        <p class="foot-services">Neumáticos y llantas · Montaje y equilibrado · Alineación · Mecánica general · Lavado</p>
+      </div>
+      <div class="foot-col foot-contact">
+        <a class="foot-tel" href="tel:+34942369163">942 36 91 63</a>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=Neum%C3%A1ticos+y+Accesorios+Seraux+Pol%C3%ADgono+de+Raos+Santander" target="_blank" rel="noopener">Cómo llegar<span class="sr"> (abre Google Maps)</span></a>
+        <a href="#inicio">Volver arriba ↑</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

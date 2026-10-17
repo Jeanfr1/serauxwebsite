@@ -1,0 +1,23 @@
+{
+  "duration": 4.8,
+  "loop": false,
+  "sound": false,
+  "sequence": [
+    {
+      "from": 0,
+      "to": 1.4,
+      "action": "Traço do pneu aparece sobre o papel técnico."
+    },
+    {
+      "from": 1.4,
+      "to": 3.6,
+      "action": "Varredura vermelha revela borracha e metal da esquerda para a direita."
+    },
+    {
+      "from": 3.6,
+      "to": 4.8,
+      "action": "Guia se dissipa e fotografia estabiliza."
+    }
+  ],
+  "reduced_motion": "Foto estática; sem intro ou controles de movimento."
+}

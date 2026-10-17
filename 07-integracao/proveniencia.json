@@ -1,0 +1,49 @@
+{
+  "originals": [
+    {
+      "file": "04-fotos-originais/fachada.png",
+      "source": "Screenshot 2026-10-17 at 15.54.56.png",
+      "sha256": "921f9d294f02f12373d32c5a92befc210e6b1d4e08a4fa1637d640c1c2a8cddb"
+    },
+    {
+      "file": "04-fotos-originais/acessorios.png",
+      "source": "Screenshot 2026-10-17 at 15.55.03.png",
+      "sha256": "a248e76b7e24461ebc5b74982dd90f9fd4aa6b215fdb281bc6c7f0ed93e5e3a2"
+    },
+    {
+      "file": "04-fotos-originais/oficina.png",
+      "source": "Screenshot 2026-10-17 at 15.55.11.png",
+      "sha256": "2706a4d7f896e5b48e7803754d1b1e09cc426cc4fe29c38acb4a12db9f593b45"
+    },
+    {
+      "file": "04-fotos-originais/dados-oponeo.png",
+      "source": "Screenshot 2026-10-17 at 15.56.06.png",
+      "sha256": "e4e8b05d371d3e586255e2838437eb01dffd28a8503ec2a42d823d907f142ca7"
+    },
+    {
+      "file": "04-fotos-originais/dados-servicos.png",
+      "source": "Screenshot 2026-10-17 at 15.56.20.png",
+      "sha256": "2a783b704d0fae689b1d182e4a5b62ab95f767fb2d82ddc543eab0c4f994bce7"
+    },
+    {
+      "file": "04-fotos-originais/dados-servicos-detalhe.png",
+      "source": "Screenshot 2026-10-17 at 15.56.26.png",
+      "sha256": "024ca90713fdc8e816e3d35a608f629162479dfc0a397f9200a24f00acd1d8fc"
+    },
+    {
+      "file": "04-fotos-originais/referencia-depoimentos.png",
+      "source": "Screenshot 2026-10-17 at 15.56.36.png",
+      "sha256": "3d4923c7bf0b30890925a1e10401a62223cfecf5d7999fdeff25f4b98698ab94"
+    }
+  ],
+  "campaign": [
+    "03-hero/hero-estatico.png",
+    "03-hero/papel-tecnico.png",
+    "05-camadas/pneu.png",
+    "05-camadas/roda-esboco.png",
+    "05-camadas/chave-esboco.png"
+  ],
+  "approved_hero": "00-referencias/HERO-ESCOLHIDO.png",
+  "body_reference": "02-direcao/composicao-final.png",
+  "approved_sections": "00-referencias/SECOES-APROVADAS.png"
+}

@@ -1,0 +1,14 @@
+{
+  "brand": "SERAUX",
+  "version": "CORRIGIDO-V2",
+  "approved_hero": "00-referencias/HERO-ESCOLHIDO.png",
+  "approved_sections": "00-referencias/SECOES-APROVADAS.png",
+  "body_layouts": [
+    "copy-photo",
+    "photo-copy",
+    "copy-photo"
+  ],
+  "language": "es",
+  "hero_preserved": true,
+  "status": "Kit corrigido, sem publicação"
+}

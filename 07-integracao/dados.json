@@ -1,0 +1,25 @@
+{
+  "name": "Neumáticos y Accesorios Seraux S.L.",
+  "display_name": "SERAUX",
+  "language": "es",
+  "phone": "+34 942 36 91 63",
+  "phone_link": "tel:+34942369163",
+  "address_display": "Polígono de Raos · 39011 Santander",
+  "map": "https://www.google.com/maps/search/?api=1&query=Neumaticos+Seraux+Poligono+de+Raos+Santander",
+  "hours": null,
+  "prices": null,
+  "whatsapp": null,
+  "email": null,
+  "services": [
+    "Neumáticos y llantas",
+    "Montaje y equilibrado",
+    "Alineación",
+    "Mecánica general",
+    "Lavado"
+  ],
+  "sources": [
+    "https://www.comerciosantander.com/comercios/comercio/neumaticos-y-accesorios-seraux",
+    "https://www.paginasamarillas.es/f/santander/neumaticos-seraux_151921053_000000001.html"
+  ],
+  "verification": "Telefone consistente entre fontes consultadas; referências de endereço detalhado e horários divergem. Exibir localização resumida e omitir horários/preços."
+}

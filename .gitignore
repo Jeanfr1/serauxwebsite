@@ -1,0 +1,12 @@
+node_modules/
+dist/
+assets-src/
+qa/
+.DS_Store
+.vercel
+__pycache__/
+*.log
+# third-party screenshots from the brief (not ours to publish)
+00-referencias/*
+04-fotos-originais/dados-*.png
+04-fotos-originais/referencia-depoimentos.png

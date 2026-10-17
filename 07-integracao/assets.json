@@ -1,0 +1,317 @@
+[
+  {
+    "path": "00-referencias/HERO-ESCOLHIDO.png",
+    "bytes": 885773,
+    "role": "referências exatas do usuário"
+  },
+  {
+    "path": "00-referencias/SECOES-APROVADAS.png",
+    "bytes": 1386493,
+    "role": "referências exatas do usuário"
+  },
+  {
+    "path": "00-referencias/conceito-original.png",
+    "bytes": 1927135,
+    "role": "referências exatas do usuário"
+  },
+  {
+    "path": "01-identidade/logo-apresentacao.jpg",
+    "bytes": 39409,
+    "role": "identidade preservada"
+  },
+  {
+    "path": "01-identidade/paleta.json",
+    "bytes": 112,
+    "role": "identidade preservada"
+  },
+  {
+    "path": "01-identidade/seraux-logo-transparente.png",
+    "bytes": 851918,
+    "role": "identidade preservada"
+  },
+  {
+    "path": "01-identidade/seraux-logo-transparente.svg",
+    "bytes": 391891,
+    "role": "identidade preservada"
+  },
+  {
+    "path": "02-direcao/DIRECAO.md",
+    "bytes": 1087,
+    "role": "composição e guia corrigidos"
+  },
+  {
+    "path": "02-direcao/composicao-final.png",
+    "bytes": 3075999,
+    "role": "composição e guia corrigidos"
+  },
+  {
+    "path": "02-direcao/guia-premium.pdf",
+    "bytes": 2688074,
+    "role": "composição e guia corrigidos"
+  },
+  {
+    "path": "02-direcao/maquete-desktop.png",
+    "bytes": 3473732,
+    "role": "composição e guia corrigidos"
+  },
+  {
+    "path": "02-direcao/maquete-mobile.png",
+    "bytes": 1120542,
+    "role": "composição e guia corrigidos"
+  },
+  {
+    "path": "03-hero/hero-estatico.png",
+    "bytes": 2993489,
+    "role": "hero preservado"
+  },
+  {
+    "path": "03-hero/hero-estatico.webp",
+    "bytes": 404274,
+    "role": "hero preservado"
+  },
+  {
+    "path": "03-hero/papel-tecnico.png",
+    "bytes": 2733856,
+    "role": "hero preservado"
+  },
+  {
+    "path": "03-hero/papel-tecnico.webp",
+    "bytes": 317572,
+    "role": "hero preservado"
+  },
+  {
+    "path": "04-fotos-originais/acessorios.png",
+    "bytes": 2014390,
+    "role": "anexos originais preservados"
+  },
+  {
+    "path": "04-fotos-originais/acessorios.webp",
+    "bytes": 198424,
+    "role": "anexos originais preservados"
+  },
+  {
+    "path": "04-fotos-originais/dados-oponeo.png",
+    "bytes": 1102674,
+    "role": "anexos originais preservados"
+  },
+  {
+    "path": "04-fotos-originais/dados-servicos-detalhe.png",
+    "bytes": 463497,
+    "role": "anexos originais preservados"
+  },
+  {
+    "path": "04-fotos-originais/dados-servicos.png",
+    "bytes": 573440,
+    "role": "anexos originais preservados"
+  },
+  {
+    "path": "04-fotos-originais/fachada.png",
+    "bytes": 2334556,
+    "role": "anexos originais preservados"
+  },
+  {
+    "path": "04-fotos-originais/fachada.webp",
+    "bytes": 313812,
+    "role": "anexos originais preservados"
+  },
+  {
+    "path": "04-fotos-originais/oficina.png",
+    "bytes": 2068294,
+    "role": "anexos originais preservados"
+  },
+  {
+    "path": "04-fotos-originais/oficina.webp",
+    "bytes": 201654,
+    "role": "anexos originais preservados"
+  },
+  {
+    "path": "04-fotos-originais/referencia-depoimentos.png",
+    "bytes": 105697,
+    "role": "anexos originais preservados"
+  },
+  {
+    "path": "05-camadas/LEIA-ME.md",
+    "bytes": 512,
+    "role": "motion preservado e esboços decorativos novos"
+  },
+  {
+    "path": "05-camadas/chave-esboco.png",
+    "bytes": 1566564,
+    "role": "motion preservado e esboços decorativos novos"
+  },
+  {
+    "path": "05-camadas/estudo-linhas.svg",
+    "bytes": 1501741,
+    "role": "motion preservado e esboços decorativos novos"
+  },
+  {
+    "path": "05-camadas/pneu.png",
+    "bytes": 2268011,
+    "role": "motion preservado e esboços decorativos novos"
+  },
+  {
+    "path": "05-camadas/roda-esboco.png",
+    "bytes": 2638575,
+    "role": "motion preservado e esboços decorativos novos"
+  },
+  {
+    "path": "06-roteiros/ANIMACAO.md",
+    "bytes": 1023,
+    "role": "roteiros corrigidos; vídeo preservado"
+  },
+  {
+    "path": "06-roteiros/CONTEUDO-ES.md",
+    "bytes": 466,
+    "role": "roteiros corrigidos; vídeo preservado"
+  },
+  {
+    "path": "06-roteiros/DIRETRIZES-PARA-PROXIMOS-PROJETOS.md",
+    "bytes": 780,
+    "role": "roteiros corrigidos; vídeo preservado"
+  },
+  {
+    "path": "06-roteiros/SECOES.md",
+    "bytes": 992,
+    "role": "roteiros corrigidos; vídeo preservado"
+  },
+  {
+    "path": "06-roteiros/previa-animacao.mp4",
+    "bytes": 383674,
+    "role": "roteiros corrigidos; vídeo preservado"
+  },
+  {
+    "path": "06-roteiros/storyboard.png",
+    "bytes": 636812,
+    "role": "roteiros corrigidos; vídeo preservado"
+  },
+  {
+    "path": "07-integracao/CHECKLIST-PUBLICACAO.md",
+    "bytes": 488,
+    "role": "integração e dados"
+  },
+  {
+    "path": "07-integracao/FONTES.md",
+    "bytes": 1666,
+    "role": "integração e dados"
+  },
+  {
+    "path": "07-integracao/INTEGRACAO.md",
+    "bytes": 1237,
+    "role": "integração e dados"
+  },
+  {
+    "path": "07-integracao/PROMPTS-CORRECAO.md",
+    "bytes": 2622,
+    "role": "integração e dados"
+  },
+  {
+    "path": "07-integracao/PROMPTS.md",
+    "bytes": 2534,
+    "role": "integração e dados"
+  },
+  {
+    "path": "07-integracao/conteudo-es.json",
+    "bytes": 473,
+    "role": "integração e dados"
+  },
+  {
+    "path": "07-integracao/dados.json",
+    "bytes": 929,
+    "role": "integração e dados"
+  },
+  {
+    "path": "07-integracao/proveniencia.json",
+    "bytes": 1830,
+    "role": "integração e dados"
+  },
+  {
+    "path": "07-integracao/timeline.json",
+    "bytes": 510,
+    "role": "integração e dados"
+  },
+  {
+    "path": "08-estudo/fonts/Body.woff",
+    "bytes": 379400,
+    "role": "seções claras HTML/CSS; motion preservado"
+  },
+  {
+    "path": "08-estudo/fonts/DEJAVU-LICENCA.txt",
+    "bytes": 3859,
+    "role": "seções claras HTML/CSS; motion preservado"
+  },
+  {
+    "path": "08-estudo/fonts/Display.woff",
+    "bytes": 58280,
+    "role": "seções claras HTML/CSS; motion preservado"
+  },
+  {
+    "path": "08-estudo/fonts/URW-LICENCA.txt",
+    "bytes": 52517,
+    "role": "seções claras HTML/CSS; motion preservado"
+  },
+  {
+    "path": "08-estudo/index.html",
+    "bytes": 1506654,
+    "role": "seções claras HTML/CSS; motion preservado"
+  },
+  {
+    "path": "08-estudo/seraux.css",
+    "bytes": 10662,
+    "role": "seções claras HTML/CSS; motion preservado"
+  },
+  {
+    "path": "08-estudo/seraux.js",
+    "bytes": 2858,
+    "role": "seções claras HTML/CSS; motion preservado"
+  },
+  {
+    "path": "09-verificacao/HERO-PRESERVADO.json",
+    "bytes": 988,
+    "role": "testes, hashes e relatório de correção"
+  },
+  {
+    "path": "09-verificacao/README.md",
+    "bytes": 576,
+    "role": "testes, hashes e relatório de correção"
+  },
+  {
+    "path": "09-verificacao/RELATORIO.md",
+    "bytes": 1009,
+    "role": "testes, hashes e relatório de correção"
+  },
+  {
+    "path": "09-verificacao/testar-controles.cjs",
+    "bytes": 2647,
+    "role": "testes, hashes e relatório de correção"
+  },
+  {
+    "path": "09-verificacao/testar-secoes.py",
+    "bytes": 1749,
+    "role": "testes, hashes e relatório de correção"
+  },
+  {
+    "path": "09-verificacao/validar-kit.py",
+    "bytes": 1812,
+    "role": "testes, hashes e relatório de correção"
+  },
+  {
+    "path": "CORRECAO-V2.md",
+    "bytes": 530,
+    "role": "documentação"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2013,
+    "role": "documentação"
+  },
+  {
+    "path": "VERSION.json",
+    "bytes": 341,
+    "role": "documentação"
+  },
+  {
+    "path": "catalogo.html",
+    "bytes": 1243,
+    "role": "documentação"
+  }
+]
